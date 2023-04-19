@@ -109,6 +109,25 @@
     background: url(../img/bg-header.png) left top no-repeat;
 }
 
+.mypic {
+    width: 25em;
+    float: right;
+    /* background: url(../img/bg-header.png) no-repeat; */
+}
+
+.mybg {
+    position: absolute;
+    right: 0;
+    rotate: 180deg;
+    top: 14rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .mybg {
+        top: 34rem;
+    }
+}
+
 .typed-cursor {
     font-size: 30px;
     color: var(--dark);
